@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2024-01-23T14:27:39.071582Z",
+  "genesis_time": "2024-04-10T00:16:01.055989989Z",
   "chain_id": "daily_4568-1",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "daily1nqut093ugk64uqevlxnvxydfzr764n0c36mnsj",
+            "address": "daily1zd23srpqevkqwk47sckfngyfhsx8l6zt5vut44",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -53,7 +53,7 @@
       },
       "balances": [
         {
-          "address": "daily1nqut093ugk64uqevlxnvxydfzr764n0c36mnsj",
+          "address": "daily1zd23srpqevkqwk47sckfngyfhsx8l6zt5vut44",
           "coins": [
             {
               "denom": "adaily",
@@ -168,11 +168,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "daily1nqut093ugk64uqevlxnvxydfzr764n0c36mnsj",
-                "validator_address": "dailyvaloper1nqut093ugk64uqevlxnvxydfzr764n0cryp3mp",
+                "delegator_address": "daily1zd23srpqevkqwk47sckfngyfhsx8l6zt5vut44",
+                "validator_address": "dailyvaloper1zd23srpqevkqwk47sckfngyfhsx8l6ztxjxf7x",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "dQiKPOoVF5Erzo3tJDS2rabjvmNfUemo2nr4irbEFLo="
+                  "key": "IiPX1vTV5OphD0VrrBHLgvjkFs00NlqBeFjxYSuwOY4="
                 },
                 "value": {
                   "denom": "adaily",
@@ -180,7 +180,7 @@
                 }
               }
             ],
-            "memo": "ad49809d9ab1202ccf146bf6cc73ba069351da3a@192.168.1.104:26656",
+            "memo": "077760df9e1196c3aff5d63f4dbf5b224165fb41@176.98.43.27:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -190,7 +190,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "Azk8Q84IPWArkU4i6LujzH9Ea5jGSHqUhHibD6LjiPOh"
+                  "key": "A4bSg/FO/42Ril4E/0yFKf7X+Z5Mo7ZMNiCJwShufwoi"
                 },
                 "mode_info": {
                   "single": {
@@ -209,7 +209,7 @@
             "tip": null
           },
           "signatures": [
-            "yyqcPWIMdXJQjcpswA3F9RSuP9JlVt1bWNLB7nPB32QKlIJ8TQ7QRb24QqvJq/MxgZUglAgYrhBxggkAaQx8vwE="
+            "snFzQuceeEEBWj8QGK5VlPqQLgTTTMaFhjkbb6u6uMcXDOSL/RsYB4cbU9gm5ZQK21nYw328uYr5abpB6Dhc4gE="
           ]
         }
       ]
@@ -272,14 +272,14 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.050000000000000000",
+        "inflation": "0.130000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "adaily",
-        "inflation_rate_change": "0.050000000000000000",
-        "inflation_max": "0.100000000000000000",
-        "inflation_min": "0.030000000000000000",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
